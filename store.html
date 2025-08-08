@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D.Mart</title>
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
+  
+  <!-- Remix Icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+  
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div>
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <a href="#" class="logo">D.Mart</a>
+
+    <!-- Checkbox untuk toggle menu (aksesibel) -->
+    <input 
+      type="checkbox" 
+      id="toggler" 
+      aria-label="Toggle navigation menu"
+      title="Toggle navigation menu"
+      aria-controls="site-menu"
+    >
+
+    <!-- Label sebagai tombol hamburger -->
+    <label for="toggler">
+      <i class="ri-menu-line" aria-hidden="true"></i>
+      <span class="sr-only">Menu</span>
+    </label>
+
+    <!-- Menu -->
+    <div id="site-menu" class="menu">
+      <ul class="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<!-- konten -->
+<div class="konten-store">
+<img src="images/topeng2.jpg" alt="Topeng" width="250">
+<img src="images/topeng3.jpg" alt="topeng" width="250">
+</div>
+  
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-main">
+        <h2>D.Mart</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/dmart_tithiek"><i class="ph-fill ph-instagram-logo"></i></a>
+          <a href="#"><i class="ph-fill ph-twitter-logo"></i></a>
+          <a href="#"><i class="ph-fill ph-tiktok-logo"></i></a>
+          <a href="#"><i class="ph-fill ph-facebook-logo"></i></a>
+        </div>
+      </div>
+
+      <div class="links">
+        <p>Information</p>
+        <a href="#" class="link">Our Company</a>
+        <a href="about.html" class="link">About Us</a>
+        <a href="#" class="link">Blog</a>
+      </div>
+
+      <div class="links">
+        <p>Helpful Links</p>
+        <a href="#" class="link">Services</a>
+        <a href="#" class="link">Support</a>
+        <a href="#" class="link">Terms & Condition</a>
+      </div>
+
+      <div class="links">
+        <p>Navigation</p>
+        <a href="#" class="link">Home</a>
+        <a href="#" class="link">About</a>
+        <a href="https://www.instagram.com/dmart_tithiek" class="link">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
